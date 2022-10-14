@@ -1,0 +1,17 @@
+div{
+    margin-left: 160px;
+}
+#main{
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.alert{
+  width: 310px;
+  margin-left: 600px;
+}
+
+.mat-raised-button{
+    position: relative;
+    left: 110%;
+}

@@ -1,0 +1,29 @@
+
+<app-sidebar></app-sidebar>
+<div *ngIf="done" class="alert alert-success alert-dismissible fade show" role="alert">
+  data sent succesfully.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+
+<div id="main">
+   
+
+
+        <form class="row g-3 row gx-3 gy-2 align-items-center">
+            <div class="col-md-4">
+              <input type="email" class="form-control" placeholder="Email" name="email" [(ngModel)]="email" required>
+            </div>
+
+            <div class="col-md-4">
+                <input type="text" class="form-control"  placeholder="job" name="job" [(ngModel)]="job" required>
+              </div>
+            
+              <div class="example-button-row col-sm-4">
+                <br><br>
+                <button (click)="Submit()" mat-raised-button color="primary">Submit</button>
+              </div>
+          </form>
+</div>

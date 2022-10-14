@@ -1,0 +1,13 @@
+#main{
+    margin-left: 260px;
+    margin-right: 25px;
+  }
+  
+  table {
+    width: 100%;
+  }
+
+  th{
+    font-size: 20px;
+    text-decoration: underline;
+  }
